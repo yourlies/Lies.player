@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>阴雨电台</title>
+  <style>
+    .wrap {
+      top: 0;
+      left: 0;
+      position: absolute;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+    }
+    body {
+      margin: 0;
+    }
+    .LA-container {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div ref="radio">
+      <span e-click="start">开始</span>
+      <span e-click="pause">暂停</span>
+
+      <div>duration: {{ duration }}</div>
+      <div>currentTime: {{ currentTime }}</div>
+    </div>
+    <div class="LA-container">
+      
+    </div>
+    <script src="https://yourlies.github.io/Lies.js/build/bundle.js"></script>
+    <script src="./index.js"></script>
+  </div>
+</body>
+</html>
