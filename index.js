@@ -190,7 +190,7 @@
       ['x1', '0'], ['y1', '0'], ['x2', '100%'], ['y2', '100%']
     ]);
     var LAlsh = Helper.createNS('polygon', [
-      ['points', '40,120 55,130 55,10 40,0'],
+      ['points', '40,120 55,120 55,10 40,0'],
       ['fill', 'url(#StartShadow)'],
     ]);
     var LArsh = Helper.createNS('polygon', [
@@ -286,8 +286,6 @@
   progress.style.cursor = 'ew-resize';
   progress.style.top = 0;
   progress.style.left = 0;
-
-
 
   // 选择目标节点
   // var target = pause;
