@@ -80,7 +80,7 @@ const { el: demoCoverEl } = demo.cover();
 const { el: demoProgressEl, buffer: demoBuffer, progress: demoProgress } = demo.progress();
 
 const demoAudio = new LiesAudio;
-// demoAudio.setSong('./demo.mp3');
+demoAudio.setSong('./demo.mp3');
 
 
 const demoState = { inf: 12, current: 2 };
