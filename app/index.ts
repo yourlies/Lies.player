@@ -1,3 +1,3 @@
-import Audio from './Audio';
+import { LiesAudio, LiesAudioTemplate } from './Audio';
 
-export default Audio;
+export { LiesAudio, LiesAudioTemplate };
