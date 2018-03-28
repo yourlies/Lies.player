@@ -1,0 +1,8 @@
+<svg width="140" height="140" viewBox="0 0 140 140">
+  <linearGradient id="StartShadow" x1="0" y1="0" x2="100%" y2="100%">
+    <stop offset="5%" stop-color="#eee"></stop>
+    <stop offset="65%" stop-color="#fcfcfc"></stop>
+  </linearGradient>
+  <polygon ref="play" points="0,0 0,120 104,60" fill="#e9e9e9" style="cursor: pointer;"></polygon>
+  <polygon points="0,120 45,140 140,85 104,60" fill="url(#StartShadow)"></polygon>
+</svg>

@@ -1,0 +1,10 @@
+<svg width="180" height="180" viewBox="0 0 180 180">
+  <defs>
+    <pattern id="raduisImage" patternUnits="userSpaceOnUse" width="180" height="180">
+      <image x="-20" height="180" xlink:href="./cover.jpg"></image>
+    </pattern>
+  </defs>
+  <rect rx="90" width="180" height="180" fill="url(#raduisImage)">
+    <animateTransform attributeName="transform" begin="0s" dur="10s" type="rotate" from="0 90 90" to="360 90 90" repeatCount="indefinite" />
+  </rect>
+</svg>

@@ -1,0 +1,16 @@
+<svg width="140" height="140" viewBox="0 0 140 140">
+  <path
+    fill="#e9e9e9"
+    d="M 0 0 L 40 0 L 40 120 L 0 120 L 0 0 M 64 0 L 104 0 L 104 120 L 64 120"></path>
+  <linearGradient id="StartShadow" x1="0" y1="0" x2="100%" y2="100%">
+    <stop offset="5%" stop-color="#f7f7f7"></stop>
+    <stop offset="75%" stop-color="#fafafa"></stop>
+  </linearGradient>
+  <polygon points="40,120 55,120 55,10 40,0" fill="url(#StartShadow)"></polygon>
+  <polygon points="104,120 134,120 134,10 104,0" fill="url(#StartShadow)"></polygon>
+  <path
+    ref="pause"
+    fill="#e9e9e9"
+    d="M 0 0 L 104 0 L 104 120 L 0 120 L 0 0"
+    style="opacity: 0; cursor: pointer;"></path>
+</svg>
